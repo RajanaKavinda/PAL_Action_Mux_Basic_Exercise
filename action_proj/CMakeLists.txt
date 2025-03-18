@@ -54,9 +54,6 @@ target_include_directories(generic_subscriber  PRIVATE
 )
 ament_target_dependencies(generic_subscriber geometry_msgs)
 
-add_executable(publisher scripts/publisher.cpp)
-ament_target_dependencies(publisher rclcpp std_msgs)
-
 add_executable(string_publisher scripts/string_publisher.cpp)
 ament_target_dependencies(string_publisher rclcpp std_msgs)
 
@@ -78,7 +75,6 @@ install(TARGETS
   generic_subscriber
   string_publisher
   int32_publisher
-  publisher
   DESTINATION lib/${PROJECT_NAME}/
 )
 
