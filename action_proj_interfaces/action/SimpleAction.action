@@ -1,0 +1,6 @@
+# SimpleAction.action
+int32 goal
+---
+int32 result
+---
+int32 feedback

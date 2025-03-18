@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rajana/anscer_ws/install/trajectory_manager/include/**",
+        "/home/rajana/anscer_ws/install/anscer_msgs/include/**",
+        "/home/rajana/ROS_WORKSPACES/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/rajana/ROS_WORKSPACES/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/rajana/gazebo_ws/install/gcr_obj_detect/include/**",
+        "/home/rajana/assignment_ws/install/trajectory_pkg/include/**",
+        "/home/rajana/ROS_WORKSPACES/amr_ws/install/amr_trajectory_tools/include/**",
+        "/home/rajana/ROS_WORKSPACES/action_ws/install/my_robot_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rajana/actionmux_ws/src/action_proj/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
